@@ -5,7 +5,7 @@ const config = require("./config/config.json");
 const YoutubePoster = require("discord-yt-poster");
 
 // client define
-const client = new Client({
+const client = new Client({ 
     messageCacheLifetime: 60,
     fetchAllMembers: false,
     messageCacheMaxSize: 10,
